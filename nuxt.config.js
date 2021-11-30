@@ -41,11 +41,33 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxtjs/dotenv'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/auth',
   ],
+
+  axios: {
+    baseURL: 'https://ktoogladalapi.azurewebsites.net'
+  },
+
+  router: {
+    middleware: ['auth'],
+  },
+
+  auth: {
+    strategies: {
+      auth0: {
+        domain: process.env.AUTHENTICATION_AUTH0_DOMAIN,
+        client_id: process.env.AUTHENTICATION_AUTH0_CLIENT_ID,
+        audience: process.env.AUTHENTICATION_AUTH0_AUDIENCE
+      }
+    }
+  },
+  
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {

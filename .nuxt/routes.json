@@ -1,5 +1,12 @@
 [
   {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/pdmichalik/Documents/GitHub/KtoOgladalApp/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_515aee44"
+  },
+  {
     "name": "SignUp",
     "path": "/SignUp",
     "component": "/Users/pdmichalik/Documents/GitHub/KtoOgladalApp/pages/SignUp.vue",

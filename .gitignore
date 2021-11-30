@@ -21,3 +21,15 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist

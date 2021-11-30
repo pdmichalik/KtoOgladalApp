@@ -196,11 +196,11 @@ export async function setContext (app, context) {
       isDev: true,
       isHMR: false,
       app,
-
+      store: app.store,
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {}
+      env: {"AUTHENTICATION_AUTH0_DOMAIN":"ktoogladal.eu.auth0.com","AUTHENTICATION_AUTH0_CLIENT_ID":"6uxTY3JuGBQfKyE4E1SPmaw11KNlWKC8","AUTHENTICATION_AUTH0_AUDIENCE":"kto-ogladal-api"}
     }
     // Only set once
 
