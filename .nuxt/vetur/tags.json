@@ -1,0 +1,35 @@
+{
+  "SignIn": {
+    "description": "Auto imported from components/session/SignIn.vue"
+  },
+  "Box": {
+    "description": "Auto imported from components/Box.vue"
+  },
+  "Card": {
+    "description": "Auto imported from components/Card.vue"
+  },
+  "CardTestHover": {
+    "description": "Auto imported from components/CardTestHover.vue"
+  },
+  "DashboardSidebar": {
+    "description": "Auto imported from components/DashboardSidebar.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "GoToBtn": {
+    "description": "Auto imported from components/GoToBtn.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Location": {
+    "description": "Auto imported from components/Location.vue"
+  },
+  "NavbarList": {
+    "description": "Auto imported from components/NavbarList.vue"
+  },
+  "ShoppingCart": {
+    "description": "Auto imported from components/ShoppingCart.vue"
+  }
+}
